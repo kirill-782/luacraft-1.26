@@ -1,0 +1,19 @@
+{
+  "name": "luacraft-1.26",
+  "version": "0.0.1",
+  "description": "Contains type declarations that are used in Warcraft III for writing LUA scripts (1.26)",
+  "author": "Kokomi",
+  "license": "MIT",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "files": [
+    "**/*.d.ts",
+    "types/*.d.ts"
+  ],
+  "devDependencies": {
+    "typescript": "4.6.4",
+    "typescript-to-lua": "1.5.0"
+  }
+}
