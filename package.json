@@ -1,6 +1,6 @@
 {
   "name": "luacraft-1.26",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Contains type declarations that are used in Warcraft III for writing LUA scripts (1.26)",
   "author": "Kokomi",
   "license": "MIT",
