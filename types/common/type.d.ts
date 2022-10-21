@@ -1,3 +1,5 @@
+/** @noSelfInFile **/
+
 declare class HBlendMode extends HHandle {
   private blendmode: unknown;
   protected constructor();
@@ -6,20 +8,8 @@ declare class HTriggerAction extends HHandle {
   private triggeraction: unknown;
   protected constructor();
 }
-declare class HUnitWeaponBooleanField extends HHandle {
-  private unitweaponbooleanfield: unknown;
-  protected constructor();
-}
 declare class HUberSplat extends HHandle {
   private ubersplat: unknown;
-  protected constructor();
-}
-declare class HAbilityStringLevelArrayField extends HHandle {
-  private abilitystringlevelarrayfield: unknown;
-  protected constructor();
-}
-declare class HItemRealField extends HHandle {
-  private itemrealfield: unknown;
   protected constructor();
 }
 declare class HGameCache extends HAgent {
@@ -42,10 +32,6 @@ declare class HGameState extends HHandle {
   private gamestate: unknown;
   protected constructor();
 }
-declare class HUnitCategory extends HHandle {
-  private unitcategory: unknown;
-  protected constructor();
-}
 declare class HPlayerState extends HHandle {
   private playerstate: unknown;
   protected constructor();
@@ -58,10 +44,6 @@ declare class HLightning extends HHandle {
   private lightning: unknown;
   protected constructor();
 }
-declare class HDefenseType extends HHandle {
-  private defensetype: unknown;
-  protected constructor();
-}
 declare class HItem extends HWidget {
   private item: unknown;
   protected constructor();
@@ -70,16 +52,8 @@ declare class HUnitType extends HHandle {
   private unittype: unknown;
   protected constructor();
 }
-declare class HSubAnimType extends HHandle {
-  private subanimtype: unknown;
-  protected constructor();
-}
 declare class HHandle {
   private handle: unknown;
-  protected constructor();
-}
-declare class HHeroAttribute extends HHandle {
-  private heroattribute: unknown;
   protected constructor();
 }
 declare class HVersion extends HHandle {
@@ -110,14 +84,6 @@ declare class HPathingType extends HHandle {
   private pathingtype: unknown;
   protected constructor();
 }
-declare class HUnitWeaponIntegerField extends HHandle {
-  private unitweaponintegerfield: unknown;
-  protected constructor();
-}
-declare class HAbilityStringLevelField extends HHandle {
-  private abilitystringlevelfield: unknown;
-  protected constructor();
-}
 declare class HForce extends HAgent {
   private force: unknown;
   protected constructor();
@@ -134,10 +100,6 @@ declare class HAllianceType extends HHandle {
   private alliancetype: unknown;
   protected constructor();
 }
-declare class HAbilityBooleanLevelArrayField extends HHandle {
-  private abilitybooleanlevelarrayfield: unknown;
-  protected constructor();
-}
 declare class HRacePreference extends HHandle {
   private racepreference: unknown;
   protected constructor();
@@ -146,20 +108,8 @@ declare class HWidget extends HAgent {
   private widget: unknown;
   protected constructor();
 }
-declare class HAbilityBooleanLevelField extends HHandle {
-  private abilitybooleanlevelfield: unknown;
-  protected constructor();
-}
-declare class HAbilityStringField extends HHandle {
-  private abilitystringfield: unknown;
-  protected constructor();
-}
 declare class HPlayerColor extends HHandle {
   private playercolor: unknown;
-  protected constructor();
-}
-declare class HFrameEventType extends HHandle {
-  private frameeventtype: unknown;
   protected constructor();
 }
 declare class HFogState extends HHandle {
@@ -172,10 +122,6 @@ declare class HFilterFunc extends HBoolExpr {
 }
 declare class HBoolExpr extends HAgent {
   private boolexpr: unknown;
-  protected constructor();
-}
-declare class HFramePointType extends HHandle {
-  private framepointtype: unknown;
   protected constructor();
 }
 declare class HMapDensity extends HHandle {
@@ -202,36 +148,12 @@ declare class HEvent extends HAgent {
   private event: unknown;
   protected constructor();
 }
-declare class HMoveType extends HHandle {
-  private movetype: unknown;
-  protected constructor();
-}
 declare class HMapSetting extends HHandle {
   private mapsetting: unknown;
   protected constructor();
 }
-declare class HTextAlignType extends HHandle {
-  private textaligntype: unknown;
-  protected constructor();
-}
-declare class HItemBooleanField extends HHandle {
-  private itembooleanfield: unknown;
-  protected constructor();
-}
-declare class HRegenType extends HHandle {
-  private regentype: unknown;
-  protected constructor();
-}
-declare class HAnimType extends HHandle {
-  private animtype: unknown;
-  protected constructor();
-}
 declare class HDamageType extends HHandle {
   private damagetype: unknown;
-  protected constructor();
-}
-declare class HAbilityIntegerLevelArrayField extends HHandle {
-  private abilityintegerlevelarrayfield: unknown;
   protected constructor();
 }
 declare class HTrigger extends HAgent {
@@ -246,44 +168,16 @@ declare class HDestructable extends HWidget {
   private destructable: unknown;
   protected constructor();
 }
-declare class HAbilityRealField extends HHandle {
-  private abilityrealfield: unknown;
-  protected constructor();
-}
-declare class HUnitWeaponStringField extends HHandle {
-  private unitweaponstringfield: unknown;
-  protected constructor();
-}
 declare class HIGameState extends HGameState {
   private igamestate: unknown;
-  protected constructor();
-}
-declare class HTargetFlag extends HHandle {
-  private targetflag: unknown;
-  protected constructor();
-}
-declare class HUnitIntegerField extends HHandle {
-  private unitintegerfield: unknown;
-  protected constructor();
-}
-declare class HAbilityRealLevelField extends HHandle {
-  private abilityreallevelfield: unknown;
   protected constructor();
 }
 declare class HBuff extends HAbility {
   private buff: unknown;
   protected constructor();
 }
-declare class HAbilityBooleanField extends HHandle {
-  private abilitybooleanfield: unknown;
-  protected constructor();
-}
 declare class HUnitState extends HHandle {
   private unitstate: unknown;
-  protected constructor();
-}
-declare class HAbilityRealLevelArrayField extends HHandle {
-  private abilityreallevelarrayfield: unknown;
   protected constructor();
 }
 declare class HAgent extends HHandle {
@@ -310,20 +204,12 @@ declare class HQuest extends HAgent {
   private quest: unknown;
   protected constructor();
 }
-declare class HAbilityIntegerField extends HHandle {
-  private abilityintegerfield: unknown;
-  protected constructor();
-}
 declare class HItemPool extends HHandle {
   private itempool: unknown;
   protected constructor();
 }
 declare class HRarityControl extends HHandle {
   private raritycontrol: unknown;
-  protected constructor();
-}
-declare class HUnitBooleanField extends HHandle {
-  private unitbooleanfield: unknown;
   protected constructor();
 }
 declare class HPlayerunitEvent extends HEventId {
@@ -348,10 +234,6 @@ declare class HLimitop extends HEventId {
 }
 declare class HAttackType extends HHandle {
   private attacktype: unknown;
-  protected constructor();
-}
-declare class HUnitStringField extends HHandle {
-  private unitstringfield: unknown;
   protected constructor();
 }
 declare class HMultiBoardItem extends HAgent {
@@ -382,10 +264,6 @@ declare class HEffect extends HAgent {
   private effect: unknown;
   protected constructor();
 }
-declare class HItemIntegerField extends HHandle {
-  private itemintegerfield: unknown;
-  protected constructor();
-}
 declare class HUnitEvent extends HEventId {
   private unitevent: unknown;
   protected constructor();
@@ -402,19 +280,11 @@ declare class HRegion extends HAgent {
   private region: unknown;
   protected constructor();
 }
-declare class HItemStringField extends HHandle {
-  private itemstringfield: unknown;
-  protected constructor();
-}
 declare class HEventId extends HHandle {
   private eventid: unknown;
   protected constructor();
 }
 declare type TCode = () => void | boolean;
-declare class HOriginFrameType extends HHandle {
-  private originframetype: unknown;
-  protected constructor();
-}
 declare class HAIDifficulty extends HHandle {
   private aidifficulty: unknown;
   protected constructor();
@@ -447,18 +317,6 @@ declare class HTerrainDeformation extends HHandle {
   private terraindeformation: unknown;
   protected constructor();
 }
-declare class HPathingFlag extends HHandle {
-  private pathingflag: unknown;
-  protected constructor();
-}
-declare class HAbilityIntegerLevelField extends HHandle {
-  private abilityintegerlevelfield: unknown;
-  protected constructor();
-}
-declare class HArmorType extends HHandle {
-  private armortype: unknown;
-  protected constructor();
-}
 declare class HPlayer extends HAgent {
   private player: unknown;
   protected constructor();
@@ -479,10 +337,6 @@ declare class HVolumeGroup extends HHandle {
   private volumegroup: unknown;
   protected constructor();
 }
-declare class HUnitRealField extends HHandle {
-  private unitrealfield: unknown;
-  protected constructor();
-}
 declare class HTriggerCondition extends HAgent {
   private triggercondition: unknown;
   protected constructor();
@@ -501,14 +355,6 @@ declare class HCameraField extends HHandle {
 }
 declare class HMapControl extends HHandle {
   private mapcontrol: unknown;
-  protected constructor();
-}
-declare class HUnitWeaponRealField extends HHandle {
-  private unitweaponrealfield: unknown;
-  protected constructor();
-}
-declare class HOsKeyType extends HHandle {
-  private oskeytype: unknown;
   protected constructor();
 }
 declare class HItemType extends HHandle {

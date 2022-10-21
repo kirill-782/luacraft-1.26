@@ -18,3 +18,5 @@ You also need to include a type definition in ``tsconfig.json``:
 ```
 
 
+
+If you wish, you can include individual types, which are located on the ``types`` path
