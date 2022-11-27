@@ -68,6 +68,10 @@ declare class HTextAlignType extends HHandle {
   private textaligntype: unknown;
   protected constructor();
 }
+declare class HVariableType extends HHandle {
+  private variabletype: unknown;
+  protected constructor();
+}
 declare class HItemBooleanField extends HHandle {
   private itembooleanfield: unknown;
   protected constructor();
@@ -158,6 +162,10 @@ declare class HAbilityBooleanField extends HHandle {
 }
 declare class HAbilityBooleanLevelArrayField extends HHandle {
   private abilitybooleanlevelarrayfield: unknown;
+  protected constructor();
+}
+declare class HMouseButtonType extends HHandle {
+  private mousebuttontype: unknown;
   protected constructor();
 }
 declare class HAbilityRealLevelArrayField extends HHandle {
