@@ -28,6 +28,10 @@ declare class HItemRealField extends HHandle {
   private itemrealfield: unknown;
   protected constructor();
 }
+declare class HPlayerMissileEvent extends HEventId {
+  private playermissileevent: unknown;
+  protected constructor();
+}
 declare class HFramePointType extends HHandle {
   private framepointtype: unknown;
   protected constructor();
@@ -46,6 +50,10 @@ declare class HAbilityIntegerLevelField extends HHandle {
 }
 declare class HUnitBooleanField extends HHandle {
   private unitbooleanfield: unknown;
+  protected constructor();
+}
+declare class HMissile extends HAgent {
+  private missile: unknown;
   protected constructor();
 }
 declare class HUnitCategory extends HHandle {

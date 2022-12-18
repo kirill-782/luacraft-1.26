@@ -1045,6 +1045,8 @@ declare const EVENT_PLAYER_MOUSE_DOWN: HPlayerEvent;
 declare const EVENT_PLAYER_MOUSE_MOVE: HPlayerEvent;
 declare const EVENT_PLAYER_MOUSE_UP: HPlayerEvent;
 declare const EVENT_PLAYER_SYNC_DATA: HPlayerEvent;
+declare const EVENT_PLAYER_MISSILE_HIT: HPlayerMissileEvent;
+declare const EVENT_PLAYER_MISSILE_LAUNCH: HPlayerMissileEvent;
 declare const EVENT_PLAYER_UNIT_DAMAGED: HPlayerunitEvent;
 declare const EVENT_PLAYER_UNIT_DAMAGING: HPlayerunitEvent;
 declare const RARITY_QUEUE: HRarityControl;
